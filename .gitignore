@@ -1,0 +1,70 @@
+# ======================
+# Android / Gradle
+# ======================
+.gradle/
+build/
+
+# Local configuration file (SDK path, etc.)
+local.properties
+
+# ======================
+# Android Studio / IntelliJ
+# ======================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ======================
+# OS generated files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# APK / AAB / Dex files
+# ======================
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ======================
+# Generated files
+# ======================
+bin/
+gen/
+out/
+
+# ======================
+# Kotlin specific
+# ======================
+.kotlin/
+kotlin/
+
+# ======================
+# External native build
+# ======================
+.externalNativeBuild/
+.cxx/
+
+# ======================
+# Android profiling
+# ======================
+captures/
+
+# ======================
+# Keystore files (VERY IMPORTANT)
+# ======================
+*.jks
+*.keystore
+
+# ======================
+# Gradle cache (optional but recommended)
+# ======================
+.gradle-cache/
